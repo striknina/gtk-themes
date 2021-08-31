@@ -1,16 +1,27 @@
 ## About
-striknina's GTK themes collection. Mostly sweeping recolours of the Arc GTK theme.
+striknina's GTK themes collection, also including icons and terminal colours for good measure. Mostly sweeping recolours of the Arc GTK theme.
 
-(For the time being, until I can make space for a Cinnamon + GNOME install, the themes will not be complete for those two desktops. Sorry.)
+A little heads up: this is for the most part a personal collection, so the themes have been built tailored to the DEs that I use. That means no Cinnamon and GNOME support, at least for the time being. Fret not, though - I've packed the Oomox colours, which can be found in the /oomox-colours directory, in case you'd like to build the themes yourself.
+
+(I'll make sure to contribute my colourschemes to the original Oomox theme builder!)
 
 ## Installation
-The themes can be installed by copying the theme folders into `~/.themes`. The easy way would be to clone:
- 
+
+Clone the repository onto your device:
+
 ```
-git clone https://github.com/striknina/gtk-themes ~/.themes
+git clone https://github.com/striknina/gtk-themes.git
 ```
 
-To install the themes system-wide (so windows running as root get themed too), copy the theme folders into `/usr/share/themes`.
+(or download the zip file, if you so prefer.)
+
+Themes can be installed by copying the theme folders into `~/.themes` for a user-wide install or `/usr/share/themes` for a system-wide install.
+
+Icons can be installed by copying the icon folders into `~/.icons` for a user-wide install or `/usr/share/icons` for a system-wide install.
+
+(System-wide install ensures that the theme you've chosen also applies to windows running as root.)
+
+Terminal colours are in the .xresources format - you can simply copy the contents into the `~/.Xresources` file if the terminal you use happens to use that file for its config. If yours doesn't (mine doesn't - I use the Xfce terminal), you can use [terminal.sexy](https://terminal.sexy/) to convert the colours to your chosen format.
 
 ## Licence
 As with the original Arc theme, GPL 3.
