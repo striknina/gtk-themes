@@ -1,7 +1,7 @@
 [Icon Theme]
-Name=oomox-milori
-Comment=Papirus icon theme
-Inherits=breeze,hicolor
+Name=milori
+Comment=Icon theme based on Papirus, made to match the milori theme.
+Inherits=papirus-dark,hicolor
 
 Example=folder
 
